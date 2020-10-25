@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="s9-style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- list group -->
+      <h1 class="display-5 text-center text-primary">List Group</h1>
+      <ul class="list-group">
+        <li class="list-group-item">Lorem, ipsum dolor.</li>
+        <li class="list-group-item">Lorem, ipsum dolor.</li>
+      </ul>
+      <hr />
+
+      <!-- list group color -->
+      <ul class="list-group">
+        <li class="list-group-item list-group-item-primary">
+          Lorem ipsum dolor sit.
+        </li>
+        <li class="list-group-item list-group-item-secondary">
+          Lorem ipsum dolor sit.
+        </li>
+        <li class="list-group-item list-group-item-success">
+          Lorem ipsum dolor sit.
+        </li>
+        <li class="list-group-item list-group-item-info">
+          Lorem ipsum dolor sit.
+        </li>
+      </ul>
+      <hr />
+
+      <!-- list group color  use link-->
+      <ul class="list-group">
+        <a href="#" class="list-group-item list-group-item-danger"
+          >Lorem ipsum dolor sit amet.</a
+        >
+        <a href="#" class="list-group-item list-group-item-dark"
+          >Lorem ipsum dolor sit amet.</a
+        >
+        <a href="#" class="list-group-item list-group-item-light"
+          >Lorem ipsum dolor sit amet.</a
+        >
+        <a href="#" class="list-group-item list-group-item-warning"
+          >Lorem ipsum dolor sit amet.</a
+        >
+      </ul>
+      <hr />
+
+      <!-- list group color  active-->
+      <ul class="list-group">
+        <li class="list-group-item list-group-item-primary">
+          Lorem ipsum dolor sit amet consectetur.
+        </li>
+        <li class="list-group-item list-group-item-primary active">
+          Lorem ipsum dolor sit amet consectetur.
+        </li>
+      </ul>
+      <hr />
+
+      <!-- list group color disable -->
+      <ul class="list-group">
+        <li class="list-group-item list-group-item-success">
+          Lorem ipsum dolor sit amet consectetur adipisicing.
+        </li>
+        <li class="list-group-item list-group-item-success disabled">
+          Lorem ipsum dolor sit amet consectetur adipisicing.
+        </li>
+      </ul>
+      <hr />
+
+      <!-- list group color button  -->
+      <ul class="list-group">
+        <a
+          href="#"
+          class="list-group-item list-group-item-warning list-group-item-action"
+          >Lorem, ipsum dolor sit amet consectetur adipisicing elit.</a
+        >
+        <a
+          href="#"
+          class="list-group-item list-group-item-danger list-group-item-action"
+          >Lorem, ipsum dolor sit amet consectetur adipisicing elit.</a
+        >
+      </ul>
+      <hr />
+
+      <!-- list group horizontal -->
+      <ul class="list-group list-group-horizontal">
+        <li class="list-group-item list-group-item-success">Lorem, ipsum.</li>
+        <li class="list-group-item list-group-item-success">Lorem, ipsum.</li>
+        <li class="list-group-item list-group-item-success">Lorem, ipsum.</li>
+      </ul>
+      <hr />
+
+      <!-- list group with badges (insignias) -->
+      <ul class="list-group">
+        <li class="list-group-item">
+          Lorem, ipsum dolor.
+          <span class="badge">2</span>
+        </li>
+        <li class="list-group-item">
+          Lorem, ipsum dolor.
+          <span class="badge badge-danger">2</span>
+        </li>
+        <li
+          class="list-group-item d-flex justify-content-between text-align-center"
+        >
+          Lorem, ipsum dolor.
+          <span>2</span>
+        </li>
+        <li
+          class="list-group-item d-flex justify-content-between text-align-center"
+        >
+          Lorem, ipsum dolor.
+          <span class="badge badge-primary">3</span>
+        </li>
+        <li
+          class="list-group-item d-flex justify-content-between text-align-center"
+        >
+          Lorem, ipsum dolor.
+          <span class="badge badge-success badge-pill">4</span>
+        </li>
+        <li
+          class="list-group-item d-flex justify-content-between text-align-center"
+        >
+          Lorem, ipsum dolor.
+          <span class="badge badge-danger badge-circle">52</span>
+        </li>
+      </ul>
+      <hr />
+
+      <!-- list group ----- custom content  -->
+      <div class="list-group">
+        <a href="#" class="list-group-item list-group-item-action active">
+          <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-1">List group item heading</h5>
+            <small>3 days ago</small>
+          </div>
+          <p class="mb-1">
+            Donec id elit non mi porta gravida at eget metus. Maecenas sed diam
+            eget risus varius blandit. Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Dolor itaque ullam illum, blanditiis ipsa vitae
+            sequi ducimus expedita iusto eveniet ea, rem doloribus architecto
+            natus, voluptate praesentium amet pariatur neque recusandae quas
+            esse repellendus. Repudiandae ab molestiae voluptas aut nam.
+          </p>
+          <small>Donec id elit non mi porta.</small>
+        </a>
+        <a href="#" class="list-group-item list-group-item-action">
+          <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-1">List group item heading</h5>
+            <small class="text-muted">3 days ago</small>
+          </div>
+          <p class="mb-1">
+            Donec id elit non mi porta gravida at eget metus. Maecenas sed diam
+            eget risus varius blandit. Lorem ipsum dolor, sit amet consectetur
+            adipisicing elit. Tempore, vel! Mollitia voluptatum ducimus iusto
+            quia culpa maxime dolores repellat id, nesciunt dicta? Maxime eius
+            molestiae praesentium libero a nostrum atque tenetur, culpa, fugit
+            ipsam voluptatum? Modi voluptatibus quod libero esse labore?
+            Architecto, eius dolorum maiores aliquam blanditiis eveniet vel
+            nostrum.
+          </p>
+          <small class="text-muted">Donec id elit non mi porta.</small>
+        </a>
+        <a href="#" class="list-group-item list-group-item-action">
+          <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-1">List group item heading</h5>
+            <small class="text-muted">3 days ago</small>
+          </div>
+          <p class="mb-1">
+            Donec id elit non mi porta gravida at eget metus. Maecenas sed diam
+            eget risus varius blandit. Lorem, ipsum dolor sit amet consectetur
+            adipisicing elit. Similique ea, nulla magnam assumenda a incidunt
+            suscipit! Saepe delectus incidunt exercitationem alias ratione ipsa,
+            nesciunt sint soluta, commodi recusandae inventore ut repellat
+            obcaecati cupiditate eius nulla! Aspernatur dolorum suscipit ea esse
+            repellat fugit! Harum voluptas, debitis aliquam, asperiores
+            recusandae quasi reiciendis modi quidem qui quis a corrupti at
+            voluptatibus adipisci deserunt!
+          </p>
+          <small class="text-muted">Donec id elit non mi porta.</small>
+        </a>
+      </div>
+      <hr />
+
+      <!-- breadcrumb (migagas de pan) -->
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item">Lorem, ipsum dolor.</li>
+      </ol>
+      <hr />
+
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item">Lorem, ipsum dolor.</li>
+        <li class="breadcrumb-item">Lorem, ipsum</li>
+        <li class="breadcrumb-item active">Lorem,</li>
+      </ol>
+    </div>
+  </body>
+</html>
